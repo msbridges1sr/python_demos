@@ -1,6 +1,5 @@
 # This program takes an unordered list of integers and identifies the presence of sequences within it.
 # It then identifies the length of the longest_sequence found.
-# the Find length of longest sequence from an unsequenced list of numbers.
 # It uses an outter for loop to iterate each element in the list.
 # If the current element has its next number found, it proceeds to the inner while loop which checks for 
 # the next numbers in squence until there are no more found. The count of the sequence is saved as well
