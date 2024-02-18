@@ -1,7 +1,7 @@
 # This program prompts for an arabic number between 1 and 99 and returns its roman numeral
 # equivalent. It implements the rules that structure roman numerals provided at the end of
 # this file. There are two functions -- one to convert single digit numbers, the other to 
-# convert double-digit numbers (the length of the number is determined while it is a string.)  
+# convert double-digit numbers (the length of the number is determined while it is a string).  
 # The double digit conversion function separates the number into tens and ones. E.g., the number 
 # 52 has five tens and two ones. After the double digit function, convert_tens(), converts the 
 # tens, if there are ones, it calls the single digit conversion function, convert_ones(), 
