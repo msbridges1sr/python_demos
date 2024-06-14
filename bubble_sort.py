@@ -1,11 +1,12 @@
-# Makes a temp deepcopy of the original list sorts the temp list lowest to highest
-# deepcopies the temp_list back to the original list and deletes the temp_list.
-# The sort is done with an outer for loop and an inner for loop. The outer for loop
-# iterates the number of times there are items, calling the inner for loop.
-# The inner for loop takes each item in the list and compares it the item ahead of 
-# it in the list. If it is smaller it changes place and continues the loop.
-# This produces a list that has left-to-righ high-to-low values, so at the end
-# the list is reversed.
+""" Makes a temp deepcopy of the original list sorts the temp list lowest to highest
+deepcopies the temp_list back to the original list and deletes the temp_list.
+The sort is done with an outer for loop and an inner for loop. The outer for loop
+iterates the number of times there are items, calling the inner for loop.
+The inner for loop takes each item in the list and compares it the item ahead of 
+it in the list. If it is smaller it changes place and continues the loop.
+This produces a list that has left-to-righ high-to-low values, so at the end
+the list is reversed."""
+
 import copy
 
 list = [4 , 1, 3, 9, 7]
